@@ -1,0 +1,201 @@
+::-webkit-scrollbar {
+    background: black;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(158, 153, 153);
+    border-radius: 20px;
+}
+
+body {
+    margin: 0;
+    background-image: radial-gradient(circle at 25.82% 116.45%, #564a48 0, #434141 16.67%, #2e373a 33.33%, #162d34 50%, #00222f 66.67%, #00192b 83.33%, #000f28 100%);
+}
+
+.banner {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.banner img {
+    align-items: center;
+    text-align: center;
+    width: 1500px;
+}
+
+.card-home {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.card-home ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    background-color: #1C1E1F;
+    border-radius: 10px;
+}
+
+.card-home ul li {
+    display: inline;
+    position: relative;
+    margin: 100px;
+
+}
+
+.card-home ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    transition: 0.3s;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card-home ul li a:hover {
+    background-color: #000f28;
+}
+
+/*sub menu*/
+.card-home ul ul {
+    display: none;
+    background-color: #232627;
+    position: absolute;
+    left: 170px;
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.card-home ul li:hover ul {
+    display: inline-block;
+}
+
+.card-home ul ul li a {
+    display: block;
+}
+
+
+.banner img {
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12opx;
+    color: white;
+}
+
+.text {
+    width: 100%;
+    padding: 15px;
+    background-color: #1c1e1f;
+    border: 0;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px
+}
+
+h1 {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.txth1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12opx;
+    color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    width: 460px;
+    height: 280px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.card-fotos img {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 460px;
+    height: 240px;
+}
+
+h5 {
+    margin-top: 10px;
+    color: black;
+}
+
+.rodape {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.botaohome {
+    margin-left: 38px;
+}
+
+.botaohome button {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: rgb(11, 2, 27);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.botaohome button:hover {
+    background-color: rgb(22, 6, 53);
+    transition: 0.3s;
+}
+
+.contato {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.contato h1 {
+    margin-left: 38px;
+}
+
+.contato ul {
+    list-style-type: none;
+}
+
+.contato ul li {
+    margin-bottom: 8px;
+}

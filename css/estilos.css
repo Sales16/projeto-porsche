@@ -1,0 +1,190 @@
+@font-face {
+    font-family: porsche;
+    src: url("fonte porsche.ttf");
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(130, 128, 128);
+    border-radius: 20px;
+}
+
+body {
+    overflow: overlay;
+    background-color: #e2e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 8px;
+}
+
+.banner {
+    font-family: porsche;
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner img {
+    height: 150px;
+}
+
+.img2 {
+    transform: scaleX(-1);
+}
+
+.card-home {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.card-home ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 12px;
+    background-color: #424242;
+    border-radius: 10px;
+}
+
+.card-home ul li {
+    display: inline;
+    position: relative;
+    margin: 100px;
+
+}
+
+.card-home ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    transition: 0.3s;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card-home ul li a:hover {
+    background-color: #860101;
+}
+
+/*sub menu*/
+.card-home ul ul {
+    display: none;
+    background-color: #232627;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.card-home ul li:hover ul {
+    display: inline-block;
+}
+
+.card-home ul ul li a {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text {
+    background-color: #f7f4f4;
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.brasao {
+    display: flex;
+    background-color: #f7f4f4;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.brasao img {
+    height: 180px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.carro {
+    background-color: #f7f4f4;
+    font-size: 18px;
+    text-align: center;
+    margin: 35px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modelos img {
+    height: 400px;
+    border-radius: 20px;
+}
+
+
+.contato {
+    font-size: 18px;
+}
+
+.contato h1 {
+    text-align: left;
+    margin-left: 38px;
+    margin-bottom: 0;
+}
+
+.contato ul {
+    list-style: none;
+    ;
+}
+
+.contato ul li {
+    margin-bottom: 8px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 38px;
+    padding: 10px 30px;
+    font-size: 30px;
+    color: #000000;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #000000;
+}
+
+button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #000000;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.rodape {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
